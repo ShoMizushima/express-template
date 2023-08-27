@@ -34,6 +34,20 @@ npm test
    npx eslint --init
    ```
 
+1. jest
+
+   ```
+   npm i -D jest
+   npm i -D @types/jest
+   npm i -D ts-jest
+   npm i -D supertest
+   npm i -D @types/supertest
+   npm i -D babel-cli
+   npm i -D babel-preset-env
+   npm i -D superagent
+   npx jest --init
+   ```
+
 1. prettier
 
    ```

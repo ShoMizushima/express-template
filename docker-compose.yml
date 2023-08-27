@@ -1,0 +1,12 @@
+version: "3.9"
+services:
+  backend:
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    volumes:
+      - ./express:/express
+    working_dir: "/express"
+    command: sh -c "npm i && npm run start"
+    ports:
+      - 3000:3000
